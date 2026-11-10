@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Local configuration and research documents
+.env
+.env.*
+!.env.example
+storage/uploads/**
+!storage/uploads/.gitkeep
+storage/vectors/**
+!storage/vectors/.gitkeep
+*.db
+*.sqlite3
+
+# Editors and operating systems
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
